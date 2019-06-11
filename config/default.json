@@ -1,0 +1,5 @@
+{
+    "mongoconn":"mongodb+srv://myclusteruser01:password01@mycluster0-i6sct.mongodb.net/StickyNotes?retryWrites=true",
+    "jwtSecret":"secret"
+
+}
