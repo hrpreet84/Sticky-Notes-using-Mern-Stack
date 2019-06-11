@@ -1,6 +1,7 @@
 const express = require('express');
 const logger = require('morgan');
 const users = require('./routes/api/user');
+const notes = require('./routes/api/note');
 const bodyParser = require('body-parser');
 const connectDB = require('./config/db'); //database configuration
 var jwt = require('jsonwebtoken');
@@ -15,6 +16,7 @@ res.json({"Project" : "Sticky notes using Node & React"});
 });
 // public route
 app.use('/users', users);
+app.use('/api/notes',notes);
 
 
 function validateUser(req, res, next) {
