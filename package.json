@@ -1,22 +1,16 @@
 {
-  "name": "sticky-notes",
+  "name": "projectwork",
   "version": "1.0.0",
-  "description": "capstone Project",
+  "description": "",
   "main": "server.js",
-  "dependencies": {
-    "bcrypt": "^3.0.6",
-    "config": "^3.1.0",
-    "express": "^4.17.1",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.5.14",
-    "morgan": "^1.9.1"
-  },
-  "devDependencies": {},
   "scripts": {
-    "start": "node server",
-    "server": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Harpreet",
-  "license": "ISC"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.14"
+  }
 }
